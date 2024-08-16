@@ -1,0 +1,37 @@
+.header{
+    flex: 0 1 56px;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+}
+.user-name-wrapper{
+    flex: 0 1 56px;
+    width: 56px;
+    height: 56px;
+    padding: 12px;
+    border-bottom: #E5E9EB solid 1px;
+    border-right: #E5E9EB solid 1px;
+}
+.user-name{
+    background: linear-gradient(45deg, #0974E9 0%, #3593F9 100%);
+    font-size: 20px;
+    font-weight: 800;
+    color: white;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-header{
+    flex: 1 1 auto;
+    color: #1A2024;
+    border-bottom: #E5E9EB solid 1px;
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 56px;
+}
